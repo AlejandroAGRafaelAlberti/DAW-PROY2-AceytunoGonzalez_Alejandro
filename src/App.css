@@ -1,0 +1,8 @@
+body{
+    background-image: linear-gradient(white,rgb(176, 238, 255));
+    min-height: 1000px;
+}
+#root{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
