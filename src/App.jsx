@@ -6,7 +6,9 @@ import Academics from './components/Academics';
 import PortFolio from './components/PortFolio';
 import Utility from './components/Utility';
 import TicTac from './components/TicTac';
+import Contact from './components/Contact';
 import React, {useState} from 'react';
+
 
 function App() {
   const [section, setsection] = useState("About")
@@ -21,6 +23,7 @@ function App() {
       {section === "PortFolio" && <PortFolio/>}
       {section === "Utility" && <Utility/>}
       {section === "TicTac" && <TicTac/>}
+      {section === "Contact" && <Contact/>}
       <Footer/>
     </div>
   );
