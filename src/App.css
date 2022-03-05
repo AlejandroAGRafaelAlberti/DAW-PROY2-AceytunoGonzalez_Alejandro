@@ -65,3 +65,12 @@ body{
     display: flex;
     justify-content: center;
 }
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#main2{
+    margin-top: 100px;
+}
