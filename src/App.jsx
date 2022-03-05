@@ -5,6 +5,7 @@ import About from './components/About';
 import Academics from './components/Academics';
 import PortFolio from './components/PortFolio';
 import Utility from './components/Utility';
+import TicTac from './components/TicTac';
 import React, {useState} from 'react';
 
 function App() {
@@ -13,12 +14,13 @@ function App() {
     setsection(id)
   }
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" id='tictactoe'>
       <Header section={section} onChange={changeSection}/>
       {section === "About" && <About/>}
       {section === "Academics" && <Academics/>}
       {section === "PortFolio" && <PortFolio/>}
       {section === "Utility" && <Utility/>}
+      {section === "TicTac" && <TicTac/>}
       <Footer/>
     </div>
   );

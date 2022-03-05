@@ -18,6 +18,9 @@ const Header = (props) => {
         <li className="nav-item">
             <a id="Utility" className="nav-link" href="#top" onClick={e => changeSection(e.target.id)}>Generador de Imagenes</a>
         </li>
+        <li className="nav-item">
+            <a id="TicTac" className="nav-link" href="#top" onClick={e => changeSection(e.target.id)}>TicTacToe</a>
+        </li>
         </ul>
     </header>
     )
